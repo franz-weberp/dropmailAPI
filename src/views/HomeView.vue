@@ -126,7 +126,7 @@ export default {
 			if (!this.expiresAt || this.checkEmailExpired()) { this.generateNewEmail() }
 			
 			this.startCountdown()
-			this.refreshInboxSession()
+			await this.refreshInboxSession()
 			
 		} catch (error) {
 			console.error(error)
