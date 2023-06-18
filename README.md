@@ -45,4 +45,7 @@ Além do desafio proposto temos alguns diferenciais:
 ## Tela para Mobile
 ![Mobile Dark](https://lab.coodesh.com/fweberpimentel/dropmail-franz/-/raw/main/src/assets/demo/dark-mobile-demo.png)
 ![Mobile Light](https://lab.coodesh.com/fweberpimentel/dropmail-franz/-/raw/main/src/assets/demo/light-mobile-demo.png)
+
 ## API
+Para obter os dados, utilizaremos a API do DropMail. Observe que a comunicação é realizada utilizando GraphQL, enviando todas as requisições para o endereço https://dropmail.me/api/graphql/MY_TOKEN (HTTP).
+> Nota: Utilizando o https://cors-anywhere.herokuapp.com devido a problema com o cors
